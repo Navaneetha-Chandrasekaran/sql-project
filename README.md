@@ -5,9 +5,7 @@ JOIN fees f ON s.ID = f.student_id;
 ![Screenshot (3)](https://github.com/user-attachments/assets/2ebde392-5e39-4710-9818-29dfc6ab72c4)
 
  B)SELECT s.ID, s.name, g.entry_time, g.exit_time, a.total_days,a.present_days,a.absent_days
-FROM students s
-JOIN gatetime g ON s.ID = g.student_id
-JOIN attendance a ON s.ID = a.student_id;
+FROM students s JOIN gatetime g ON s.ID = g.student_id JOIN attendance a ON s.ID = a.student_id;
 ![query 2](https://github.com/user-attachments/assets/b6f2fd99-43c7-49de-9e5a-5c609e725f8d)
 ![Screenshot (17)](https://github.com/user-attachments/assets/9db74136-6ecf-441b-b7e0-4411c1ae5e41)
 
