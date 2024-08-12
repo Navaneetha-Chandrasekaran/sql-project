@@ -9,6 +9,8 @@ FROM students s
 JOIN gatetime g ON s.ID = g.student_id
 JOIN attendance a ON s.ID = a.student_id;
 ![query 2](https://github.com/user-attachments/assets/b6f2fd99-43c7-49de-9e5a-5c609e725f8d)
+![Screenshot (17)](https://github.com/user-attachments/assets/9db74136-6ecf-441b-b7e0-4411c1ae5e41)
+
 
 C) SELECT DISTINCT
     s.ID AS student_id, 
